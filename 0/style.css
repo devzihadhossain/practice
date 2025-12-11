@@ -19,3 +19,17 @@ h1{
 	background: lightblue;
 	color: red;
 }
+
+.child > ul li:first-child{
+	background: red !important;
+}
+.child > ul li:last-child{
+	background: green !important;
+}
+
+.child > ul li:nth-child(odd){
+	background: yellow;
+}
+.child > ul li:nth-child(even){
+	background: blue;
+}
