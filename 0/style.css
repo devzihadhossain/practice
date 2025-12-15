@@ -1,3 +1,9 @@
+
+body{
+	counter-reset: section;
+}
+
+
 h1{
 	color: red;
 }
@@ -32,4 +38,11 @@ h1{
 }
 .child > ul li:nth-child(even){
 	background: blue;
+}
+.child > ul li::before{
+	counter-increment: section;
+	content: "🥲 " counter(section) ": ";
+}
+.child > ul li::after{
+	content: "🫵";
 }
