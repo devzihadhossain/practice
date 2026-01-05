@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", sans-serif;
+}
+
+/* Global Styles */
+
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+
+/* Global Classes */
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-stretch{
+    justify-content: stretch;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+
+.items-center{
+    align-items: center;
+}
+.items-stretch{
+    align-items: stretch;
+}
+
+
+
+
+body{
+    background-color: #E9EDF1;
+}
+
+/*main*/
+
+
+
+/*header*/
+header{
+    background-color: white;
+    padding: 10px 12px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+}
+
+/*serch bar*/
+.search-bar{
+    width: 30%;
+}
+.search-bar form{
+    max-width: 400px;
+    background-color: #ECF0F3;
+    border-radius: 6px;
+}
+.search-bar form input,
+.search-bar form button{
+    background-color: transparent;
+    border: none;
+}
+.search-bar form input{
+    flex: 1;
+    padding: 10px 10px 10px 2px;
+}
+.search-bar form button{
+    padding: 10px 8px;
+    font-size: 16px;
+}
+
+/*nav*/
+nav{
+    width: 50%;
+}
+
+nav ul{
+    gap: 10px;
+}
