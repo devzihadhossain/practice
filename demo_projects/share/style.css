@@ -127,6 +127,10 @@ header{
     border-radius: 6px;
 }
 
+.header-menu a i:hover{
+    background-color: #bec3c8;
+}
+
 .login-btn{
     padding: 8px 20px;
     background-color: dodgerblue;
@@ -142,7 +146,7 @@ header{
 .left-sidebar{
     width: 20%;
     padding: 14px 10px;
-    height: 1000px;
+    height: auto;
     gap: 10px;
 }
 
@@ -168,6 +172,10 @@ header{
 .left-sidebar-menu-group-item a:hover{
     background-color: #d3d2d2;
     border-radius: 5px;
+}
+
+.left-sidebar-menu-group-item a i{
+    font-size: 20px;
 }
 
 .left-sidebar-menu-group-item.group{
