@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", sans-serif;
+}
+
+/* Global Styles */
+
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+
+/* Global Classes */
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-stretch{
+    justify-content: stretch;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+
+.items-center{
+    align-items: center;
+}
+.items-stretch{
+    align-items: stretch;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.gap-1{
+    gap: 5px;
+}
+
+
+body{
+    background-color: #E9EDF1;
+}
+
+
+/* Header Area */
+
+header{
+    padding: 10px 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 20%;
+}
+
+.search-area{
+    width: 40%;
+}
+
+.search-area form{
+    border: 1px solid #ECF0F3;
+    background-color: #ECF0F3;
+    padding: 10px 6px;
+    border-radius: 6px;
+    max-width: 350px;
+}
+
+.search-bar button{
+    border: none;
+    padding: 0 6px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.search-bar input{
+    flex: 1;
+    border: none;
+    padding: 0 6px;
+    background-color: transparent;
+}
+
+.header-menu{
+    width: 40%;
+    justify-content: right;
+    gap: 10px;
+}
+
+.header-menu a i{
+    padding: 6px;
+    font-size: 24px;
+    background-color: #ECF0F3;
+    color: black;
+    border-radius: 6px;
+}
+
+.login-btn{
+    padding: 8px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+/* Left Sidebar */
+
+.left-sidebar{
+    width: 20%;
+    padding: 14px 10px;
+    height: 1000px;
+}
+
+.left-sidebar-menu-group{
+
+}
+
+.left-sidebar-menu-group-heading{
+    color: #728185;
+    margin-bottom: 10px;
+}
+
+.left-sidebar-menu-group-item{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Main Area */
+/* Right Sidebar */
